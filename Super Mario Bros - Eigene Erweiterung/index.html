@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Super Mario</title>
+    <style>
+      body {
+	background: #000;
+	margin: 0;
+      }
+  
+      #screen {
+	display: blocK;
+	image-rendering: pixelated;
+	height: 100vh;
+	margin: auto;
+      }
+    </style>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/SpriteSheet.js"></script>
+    <script type="text/javascript" src="js/loaders.js"></script>
+    <script type="text/javascript" src="js/Compositor.js"></script>
+    <script type="text/javascript" src="js/math.js"></script>
+    <script type="text/javascript" src="js/Entity.js"></script>
+    <script type="text/javascript" src="js/entities.js"></script>
+    <script type="text/javascript" src="js/Timer.js"></script>
+    <script type="text/javascript" src="js/keyboardState.js"></script>
+    <script type="text/javascript" src="js/traits/Jump.js"></script>
+    <script type="text/javascript" src="js/traits/Go.js"></script>
+    <script type="text/javascript" src="js/traits/PendulumMove.js"></script>
+    <script type="text/javascript" src="js/traits/Stomper.js"></script>
+    <script type="text/javascript" src="js/traits/Killable.js"></script>
+    <script type="text/javascript" src="js/traits/PlayerController.js"></script>
+    <script type="text/javascript" src="js/traits/Solid.js"></script>
+    <script type="text/javascript" src="js/traits/Physics.js"></script>
+    <script type="text/javascript" src="js/traits/PopOut.js"></script>
+    <script type="text/javascript" src="js/traits/Growth.js"></script>
+    <script type="text/javascript" src="js/traits/TouchPole.js"></script>
+    <script type="text/javascript" src="js/traits/CoinCollector.js"></script>
+    <script type="text/javascript" src="js/traits/Warper.js"></script>
+    <script type="text/javascript" src="js/Level.js"></script>
+    <script type="text/javascript" src="js/TileCollider.js"></script>
+    <script type="text/javascript" src="js/TileResolver.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/Camera.js"></script>
+    <script type="text/javascript" src="js/debug.js"></script>
+    <script type="text/javascript" src="js/anim.js"></script>
+    <script type="text/javascript" src="js/loaders/level.js"></script>
+    <script type="text/javascript" src="js/loaders/font.js"></script>
+    <script type="text/javascript" src="js/entities/Mario.js"></script>
+    <script type="text/javascript" src="js/entities/Goomba.js"></script>
+    <script type="text/javascript" src="js/entities/Koopa.js"></script>
+    <script type="text/javascript" src="js/entities/PoleFlag.js"></script>
+    <script type="text/javascript" src="js/entities/Coin.js"></script>
+    <script type="text/javascript" src="js/entities/Mushroom.js"></script>
+    <script type="text/javascript" src="js/entities/Firebloom.js"></script>
+    <script type="text/javascript" src="js/entities/MarioFire.js"></script>
+    <script type="text/javascript" src="js/entities/Debris.js"></script>
+    <script type="text/javascript" src="js/entities/DarkCoin.js"></script>
+    <script type="text/javascript" src="json/mario.js"></script>
+    <script type="text/javascript" src="json/goomba.js"></script>
+    <script type="text/javascript" src="json/koopa.js"></script>
+    <script type="text/javascript" src="json/PoleFlag.js"></script>
+    <script type="text/javascript" src="json/coin.js"></script>
+    <script type="text/javascript" src="json/mushroom.js"></script>
+    <script type="text/javascript" src="json/firebloom.js"></script>
+    <script type="text/javascript" src="json/marioFire.js"></script>
+    <script type="text/javascript" src="json/debris.js"></script>
+    <script type="text/javascript" src="json/darkCoin.js"></script>
+    <script type="text/javascript" src="json/overworld.js"></script>
+    <script type="text/javascript" src="json/underworld.js"></script>
+    <script type="text/javascript" src="levels/1-1.js"></script>
+    <script type="text/javascript" src="levels/1-2.js"></script>
+    <script type="text/javascript" src="js/BoundingBox.js"></script>
+    <script type="text/javascript" src="js/EntityCollider.js"></script>
+    <script type="text/javascript" src="js/layers/background.js"></script>
+    <script type="text/javascript" src="js/layers/sprites.js"></script>
+    <script type="text/javascript" src="js/layers/collision.js"></script>
+    <script type="text/javascript" src="js/layers/camera.js"></script>
+    <script type="text/javascript" src="js/layers/dashboard.js"></script>
+
+
+</head>
+<body>
+ <canvas id="screen" width="256" height="224"></canvas>
+</body>
+</html>

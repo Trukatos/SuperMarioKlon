@@ -1,0 +1,16 @@
+const underworld = '{ "imageURL": "img/tiles.png",' +
+			  '"tileW": 16,' +
+			  '"tileH": 16,' +
+
+			  '"tiles": [' +
+			    '{' +
+			      '"name": "ground",' +
+			      '"index": [0, 2]' +
+			    '},' +
+			    '{' +
+			      '"name": "sky",' +
+			      '"index": [13, 3]' +
+			    '}' +
+			  ']' +
+		       '}';
+sprites.underworld = underworld;
